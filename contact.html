@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-    <title>SOLID - Bootstrap 3 Theme</title>
+    <title>Ginga</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -33,7 +33,7 @@
   <body>
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default navbar-top" style="min-height: 100px;" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -42,13 +42,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">SOLID.</a>
+          <a class="navbar-brand" href="index.html" style="position: static; float: none;">
+			<img src="assets/img/logo.png" alt="" style="width: 120px; clear: both;">
+		  </a>
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li class="active"><a href="contact.html">CONTACT</a></li>
+            <li class="active"><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Acerca</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+            <!--
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -58,18 +61,18 @@
                 <li><a href="single-project.html">SINGLE PROJECT</a></li>
               </ul>
             </li>
+        	-->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
 	<!-- *****************************************************************************************************************
 	 BLUE WRAP
 	 ***************************************************************************************************************** -->
 	<div id="blue">
 	    <div class="container">
 			<div class="row">
-				<h3>Contact.</h3>
+				<h3>Contacto.</h3>
 			</div><!-- /row -->
 	    </div> <!-- /container -->
 	</div><!-- /blue -->
@@ -87,41 +90,41 @@
 	 <div class="container mtb">
 	 	<div class="row">
 	 		<div class="col-lg-8">
-	 			<h4>Just Get In Touch!</h4>
+	 			<h4>Envianos un mensaje!</h4>
 	 			<div class="hline"></div>
 		 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 		 			<form role="form">
 					  <div class="form-group">
-					    <label for="InputName1">Your Name</label>
+					    <label for="InputName1">Nombre</label>
 					    <input type="email" class="form-control" id="exampleInputEmail1">
 					  </div>
 					  <div class="form-group">
-					    <label for="InputEmail1">Email address</label>
+					    <label for="InputEmail1">Email</label>
 					    <input type="email" class="form-control" id="exampleInputEmail1">
 					  </div>
 					  <div class="form-group">
-					    <label for="InputSubject1">Subject</label>
+					    <label for="InputSubject1">Tema</label>
 					    <input type="email" class="form-control" id="exampleInputEmail1">
 					  </div>
 					  <div class="form-group">
-					  	<label for="message1">Message</label>
+					  	<label for="message1">Mensaje</label>
 					  	<textarea class="form-control" id="message1" rows="3"></textarea>
 					  </div>
-					  <button type="submit" class="btn btn-theme">Submit</button>
+					  <button type="submit" class="btn btn-theme">Enviar</button>
 					</form>
 			</div><! --/col-lg-8 -->
 	 		
 	 		<div class="col-lg-4">
-		 		<h4>Our Address</h4>
+		 		<h4>Nuestra direcci&oacute;n</h4>
 		 		<div class="hline"></div>
 		 			<p>
-		 				Some Ave, 987,<br/>
-		 				23890, New York,<br/>
-		 				United States.<br/>
+		 				Algun lugar,<br/>
+		 				2323, <br/>
+		 				Bolivia.<br/>
 		 			</p>
 		 			<p>
-		 				Email: hello@solidtheme.com<br/>
-		 				Tel: +34 8493-4893
+		 				Email: contacto@ginga.com.bo<br/>
+		 				Tel: 591 62732
 		 			</p>
 		 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 	 		</div>
@@ -136,12 +139,12 @@
 	 	<div class="container">
 		 	<div class="row">
 		 		<div class="col-lg-4">
-		 			<h4>About</h4>
+		 			<h4>Acerca</h4>
 		 			<div class="hline-w"></div>
 		 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 		 		</div>
 		 		<div class="col-lg-4">
-		 			<h4>Social Links</h4>
+		 			<h4>Links sociales</h4>
 		 			<div class="hline-w"></div>
 		 			<p>
 		 				<a href="#"><i class="fa fa-dribbble"></i></a>
@@ -152,18 +155,18 @@
 		 			</p>
 		 		</div>
 		 		<div class="col-lg-4">
-		 			<h4>Our Bunker</h4>
+		 			<h4>Estamos en:</h4>
 		 			<div class="hline-w"></div>
 		 			<p>
-		 				Some Ave, 987,<br/>
-		 				23890, New York,<br/>
-		 				United States.<br/>
+		 				Avenida, 987,<br/>
+		 				23890,<br/>
+		 				Bolivia.<br/>
 		 			</p>
 		 		</div>
 		 	
-		 	</div><! --/row -->
-	 	</div><! --/container -->
-	 </div><! --/footerwrap -->
+		 	</div><!--/row -->
+	 	</div><!--/container -->
+	 </div><!--/footerwrap -->
 	 
     <!-- Bootstrap core JavaScript
     ================================================== -->

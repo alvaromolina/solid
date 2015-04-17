@@ -103,7 +103,7 @@ a:focus {
 .navbar-default .navbar-nav > li > a {
 	color: white;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 18px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -205,6 +205,8 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
+	background: url(../img/bgspace.jpg);
+	background-size: cover;
 	background-color: #00b3fe;
 	min-height: 550px;
 	padding-top: 100px;

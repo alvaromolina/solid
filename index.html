@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-    <title>SOLID - Bootstrap 3 Theme</title>
+    <title>Ginga</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -33,7 +33,7 @@
   <body>
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top" style="min-height: 100px;" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -42,13 +42,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">SOLID.</a>
+          <a class="navbar-brand" href="index.html" style="position: static; float: none;">
+			<img src="assets/img/logo.png" alt="" style="width: 120px; clear: both;">
+		  </a>
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
+            <li class="active"><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Acerca</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+            <!--
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -58,6 +61,7 @@
                 <li><a href="single-project.html">SINGLE PROJECT</a></li>
               </ul>
             </li>
+        	-->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -70,13 +74,15 @@
 	    <div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<h3>Show your work with this beautiful theme</h3>
-					<h1>Eyecatching Bootstrap 3 Theme.</h1>
+					<h3><img src="assets/img/logo.png" alt="" style="position: static; float: none; width: 300px; clear: both;">
+					</h3>
+					<h1>Frase de ginga.</h1>
 					<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
 					<h5>More Lorem Ipsum added here too.</h5>				
 				</div>
 				<div class="col-lg-8 col-lg-offset-2 himg">
-					<img src="assets/img/browser.png" class="img-responsive">
+					<!--<img src="assets/img/browser1.png" class="img-responsive">
+				-->
 				</div>
 			</div><!-- /row -->
 	    </div> <!-- /container -->
@@ -90,31 +96,31 @@
  			<div class="row centered">
  				<div class="col-md-4">
  					<i class="fa fa-heart-o"></i>
- 					<h4>Handsomely Crafted</h4>
+ 					<h4>Diseño</h4>
  					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
- 					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+ 					<p><br/><a href="#" class="btn btn-theme">Mas informaci&oacute;n</a></p>
  				</div>
  				<div class="col-md-4">
- 					<i class="fa fa-flask"></i>
- 					<h4>Retina Ready</h4>
+ 					<i class="fa fa-globe"></i>
+ 					<h4>Desarrollo Web</h4>
  					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
- 					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+ 					<p><br/><a href="#" class="btn btn-theme">Mas informaci&oacute;n</a></p>
  				</div>
  				<div class="col-md-4">
- 					<i class="fa fa-trophy"></i>
- 					<h4>Quality Theme</h4>
+ 					<i class="fa fa-mobile"></i>
+ 					<h4>Desarrollo movil</h4>
  					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
- 					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+ 					<p><br/><a href="#" class="btn btn-theme">Mas informaci&oacute;n</a></p>
  				</div>		 				
 	 		</div>
-	 	</div><! --/container -->
-	 </div><! --/service -->
+	 	</div><!--/container -->
+	 </div><!--/service -->
 	 
 	<!-- *****************************************************************************************************************
 	 PORTFOLIO SECTION
 	 ***************************************************************************************************************** -->
 	 <div id="portfoliowrap">
-        <h3>LATEST WORKS</h3>
+        <h3>Ultimos trabajos</h3>
 
         <div class="portfolio-centered">
             <div class="recentitems portfolio">
@@ -130,87 +136,44 @@
 						</div><!-- he view -->		
 					</div><!-- he wrap -->
 				</div><!-- end col-12 -->
-                            
-                <div class="portfolio-item web-design">
-                    <div class="he-wrap tpl6">
-					<img src="assets/img/portfolio/portfolio_02.jpg" alt="">
-						<div class="he-view">
-							<div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_02.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                        	</div><!-- he bg -->
-						</div><!-- he view -->		
-					</div><!-- he wrap -->
-				</div><!-- end col-12 -->
-        
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
-					<img src="assets/img/portfolio/portfolio_03.jpg" alt="">
+  				<div class="portfolio-item graphic-design">
+					<div class="he-wrap tpl6">
+					<img src="assets/img/portfolio/portfolio_07.jpg" alt="">
 						<div class="he-view">
 							<div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_03.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_08.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
                                 <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
                         	</div><!-- he bg -->
 						</div><!-- he view -->		
 					</div><!-- he wrap -->
-				</div><!-- end col-12 -->
-        
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
-					<img src="assets/img/portfolio/portfolio_04.jpg" alt="">
-						<div class="he-view">
-							<div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                        	</div><!-- he bg -->
-						</div><!-- he view -->		
-					</div><!-- he wrap -->
-				</div><!-- end col-12 -->
-                                        
-                <div class="portfolio-item books">
-                    <div class="he-wrap tpl6">
+				</div><!-- end col-12 -->   
+  				<div class="portfolio-item graphic-design">
+					<div class="he-wrap tpl6">
 					<img src="assets/img/portfolio/portfolio_05.jpg" alt="">
 						<div class="he-view">
 							<div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_05.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
+                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_08.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
                                 <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
                         	</div><!-- he bg -->
 						</div><!-- he view -->		
 					</div><!-- he wrap -->
-				</div><!-- end col-12 -->
-                                        
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
+				</div><!-- end col-12 -->   
+  				<div class="portfolio-item graphic-design">
+					<div class="he-wrap tpl6">
 					<img src="assets/img/portfolio/portfolio_06.jpg" alt="">
 						<div class="he-view">
 							<div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_06.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_08.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
                                 <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
                         	</div><!-- he bg -->
 						</div><!-- he view -->		
 					</div><!-- he wrap -->
-				</div><!-- end col-12 -->
-                    
-                <div class="portfolio-item books">
-                    <div class="he-wrap tpl6">
-					<img src="assets/img/portfolio/portfolio_07.jpg" alt="">
-						<div class="he-view">
-							<div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_07.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                        	</div><!-- he bg -->
-						</div><!-- he view -->		
-					</div><!-- he wrap -->
-				</div><!-- end col-12 -->
-                    
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
+				</div><!-- end col-12 -->   
+				<div class="portfolio-item graphic-design">
+					<div class="he-wrap tpl6">
 					<img src="assets/img/portfolio/portfolio_08.jpg" alt="">
 						<div class="he-view">
 							<div class="bg a0" data-animate="fadeIn">
@@ -220,33 +183,7 @@
                         	</div><!-- he bg -->
 						</div><!-- he view -->		
 					</div><!-- he wrap -->
-				</div><!-- end col-12 -->
-                                        
-                <div class="portfolio-item web-design">
-                    <div class="he-wrap tpl6">
-					<img src="assets/img/portfolio/portfolio_01.jpg" alt="">
-						<div class="he-view">
-							<div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_01.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                        	</div><!-- he bg -->
-						</div><!-- he view -->		
-					</div><!-- he wrap -->
-				</div><!-- end col-12 -->
-    
-			<div class="portfolio-item books">
-                <div class="he-wrap tpl6">
-					<img src="assets/img/portfolio/portfolio_10.jpg" alt="">
-						<div class="he-view">
-							<div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_10.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                        	</div><!-- he bg -->
-						</div><!-- he view -->		
-					</div><!-- he wrap -->
-				</div><!-- end col-12 -->
+				</div><!-- end col-12 -->     
                     
             </div><!-- portfolio -->
         </div><!-- portfolio container -->
@@ -256,7 +193,7 @@
 	<!-- *****************************************************************************************************************
 	 MIDDLE CONTENT
 	 ***************************************************************************************************************** -->
-
+	<!-- 
 	 <div class="container mtb">
 	 	<div class="row">
 	 		<div class="col-lg-4 col-lg-offset-1">
@@ -285,8 +222,9 @@
 	 			<p><a href="single-post.html">This theme is what you need.</a></p>
 	 		</div>
 	 		
-	 	</div><! --/row -->
-	 </div><! --/container -->
+	 	</div>
+	 </div>
+	 -->
 	 
 	<!-- *****************************************************************************************************************
 	 TESTIMONIALS
@@ -297,12 +235,12 @@
 	 			<div class="col-lg-8 col-lg-offset-2">
 	 			<i class="fa fa-comment-o"></i>
 	 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-	 			<h4><br/>Marcel Newman</h4>
-	 			<p>WEB DESIGNER - BLACKTIE.CO</p>
+	 			<h4><br/>Client</h4>
+	 			<p>JUAN PLAOTES ssd.com</p>
 	 			</div>
-	 		</div><! --/row -->
-	 	</div><! --/container -->
-	 </div><! --/twrap -->
+	 		</div><!--/row -->
+	 	</div><!--/container -->
+	 </div><!--/twrap -->
 	 
 	<!-- *****************************************************************************************************************
 	 OUR CLIENTS
@@ -310,7 +248,7 @@
 	 <div id="cwrap">
 		 <div class="container">
 		 	<div class="row centered">
-			 	<h3>OUR CLIENTS</h3>
+			 	<h3>Nuestros clientes</h3>
 			 	<div class="col-lg-3 col-md-3 col-sm-3">
 			 		<img src="assets/img/clients/client01.png" class="img-responsive">
 			 	</div>
@@ -334,12 +272,12 @@
 	 	<div class="container">
 		 	<div class="row">
 		 		<div class="col-lg-4">
-		 			<h4>About</h4>
+		 			<h4>Acerca</h4>
 		 			<div class="hline-w"></div>
 		 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 		 		</div>
 		 		<div class="col-lg-4">
-		 			<h4>Social Links</h4>
+		 			<h4>Links sociales</h4>
 		 			<div class="hline-w"></div>
 		 			<p>
 		 				<a href="#"><i class="fa fa-dribbble"></i></a>
@@ -350,18 +288,18 @@
 		 			</p>
 		 		</div>
 		 		<div class="col-lg-4">
-		 			<h4>Our Bunker</h4>
+		 			<h4>Estamos en:</h4>
 		 			<div class="hline-w"></div>
 		 			<p>
-		 				Some Ave, 987,<br/>
-		 				23890, New York,<br/>
-		 				United States.<br/>
+		 				Avenida, 987,<br/>
+		 				23890,<br/>
+		 				Bolivia.<br/>
 		 			</p>
 		 		</div>
 		 	
-		 	</div><! --/row -->
-	 	</div><! --/container -->
-	 </div><! --/footerwrap -->
+		 	</div><!--/row -->
+	 	</div><!--/container -->
+	 </div><!--/footerwrap -->
 	 
     <!-- Bootstrap core JavaScript
     ================================================== -->
